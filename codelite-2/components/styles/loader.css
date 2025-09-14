@@ -1,0 +1,204 @@
+/* Scoped loader styles: prefix all previous global rules with .codelite-loader */
+.codelite-loader * {
+    box-sizing: border-box;
+}
+
+.codelite-loader img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.codelite-loader h1 {
+    text-transform: uppercase;
+    font-size: 6rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.codelite-loader p {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.codelite-loader .preloader,
+.codelite-loader .split-overlay,
+.codelite-loader .tags-overlay {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Fade out state */
+.codelite-loader.codelite-loader--fading {
+    pointer-events: none;
+}
+
+.codelite-loader.codelite-loader--fading .preloader,
+.codelite-loader.codelite-loader--fading .split-overlay,
+.codelite-loader.codelite-loader--fading .tags-overlay,
+.codelite-loader.codelite-loader--fading .container {
+    animation: clFadeOut .6s ease forwards;
+}
+
+@keyframes clFadeOut {
+    to {
+        opacity: 0;
+    }
+}
+
+.codelite-loader .preloader,
+.codelite-loader .split-overlay {
+    background-color: #0a0a0a;
+    color: #fff;
+}
+
+.codelite-loader .preloader,
+.codelite-loader .tags-overlay {
+    z-index: 2;
+}
+
+.codelite-loader .split-overlay {
+    z-index: 1;
+}
+
+.codelite-loader .intro-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.codelite-loader .outro-title {
+    position: absolute;
+    top: 50%;
+    left: calc(50% + 10rem);
+    transform: translate(-50%, -50%);
+}
+
+.codelite-loader .tag {
+    position: absolute;
+    width: max-content;
+    color: #5a5a5a;
+    overflow: hidden;
+}
+
+.codelite-loader .tag-1 {
+    top: 15%;
+    left: 15%;
+}
+
+.codelite-loader .tag-2 {
+    bottom: 15%;
+    left: 25%;
+}
+
+.codelite-loader .tag-3 {
+    bottom: 30%;
+    right: 15%;
+}
+
+.codelite-loader .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    clip-path: polygon(0 48%, 0 52%, 0 52%);
+    z-index: 2;
+}
+
+.codelite-loader .container .hero-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.codelite-loader nav,
+.codelite-loader footer {
+    position: relative;
+    width: 100vw;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    z-index: 2;
+}
+
+.codelite-loader nav p#logo {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.codelite-loader .card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    clip-path: polygon(0% 50%, 100% 50%, 100% 50%, 0% 50%);
+}
+
+.codelite-loader .card h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;
+}
+
+.codelite-loader .card .char span {
+    position: relative;
+    display: inline-block;
+    transform: translateY(100%);
+    will-change: transform;
+}
+
+.codelite-loader .intro-title .char,
+.codelite-loader .outro-title .char,
+.codelite-loader .card .char {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.codelite-loader .intro-title .char span,
+.codelite-loader .outro-title .char span,
+.codelite-loader .tag .word {
+    position: relative;
+    display: inline-block;
+    transform: translateY(-100%);
+    will-change: transform;
+}
+
+.codelite-loader .intro-title .first-char {
+    transform-origin: top left;
+}
+
+@media (max-width:1000px) {
+    .codelite-loader h1 {
+        font-size: 2.5rem;
+    }
+
+    .codelite-loader .outro-title {
+        left: calc(50% + 4rem);
+    }
+
+    .codelite-loader .card h1 {
+        font-size: 2.5rem;
+    }
+
+    .codelite-loader .intro-title .char,
+    .codelite-loader .outro-title .char {
+        margin-top: 0.5rem;
+    }
+}
