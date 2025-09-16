@@ -2,6 +2,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { vscDarkPlus } from "react-syntax-highlighter/dist/esm/styles/prism";
+import Image from "next/image";
 export default function AboutSection() {
 	const ref = useRef(null);
 
@@ -111,9 +112,9 @@ export default function App() {
 				<p className="mx-auto mt-2 max-w-xl text-center text-4xl font-semibold tracking-tight text-balance text-[#ffffff] sm:text-5xl">
 					We are back <br /> bigger & better
 				</p>
-				<div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:auto-rows-[minmax(0,1fr)]">
-					{/* Performance (row 1 col 1-2) */}
-					<div className="relative lg:col-span-2">
+				<div className="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-6 lg:auto-rows-[minmax(0,1fr)]">
+					{/* Performance (row 1 col 1-4) */}
+					<div className="relative lg:col-span-4">
 						<div className="absolute inset-px rounded-lg bg-gray-800 lg:rounded-l-4xl" />
 						<div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
 							<div className="px-8 pt-8 sm:px-10 sm:pt-10">
@@ -240,8 +241,8 @@ export default function App() {
 						<div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-white/15 lg:rounded-l-4xl" />
 					</div>
 
-					{/* Powerful APIs (row 1 col 3) */}
-					<div className="relative">
+					{/* Powerful APIs (row 1 col 5-6) */}
+					<div className="relative lg:col-span-2">
 						<div className="absolute inset-px rounded-lg bg-gray-800 lg:rounded-r-4xl" />
 						<div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-r-[calc(2rem+1px)]">
 							<div className="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
@@ -258,10 +259,10 @@ export default function App() {
 									<div className="flex bg-gray-900 outline outline-white/5">
 										<div className="-mb-px flex text-sm/6 font-medium text-gray-400">
 											<div className="border-r border-b border-r-white/10 border-b-white/20 bg-white/5 px-4 py-2 text-white">
-												NotificationSetting.jsx
+												CodeLite.jsx
 											</div>
 											<div className="border-r border-gray-600/10 px-4 py-2">
-												App.jsx
+												2.0.jsx
 											</div>
 										</div>
 									</div>
@@ -280,20 +281,31 @@ export default function App() {
 						<div className="pointer-events-none absolute inset-px rounded-lg shadow-sm outline outline-white/15 lg:rounded-r-4xl" />
 					</div>
 
-					{/* Registrations (row 2 col 1) */}
-					<div className="relative">
+					{/* Registrations (row 2 col 1-2) */}
+					<div className="relative lg:col-span-2">
 						<div className="absolute inset-px rounded-lg bg-gray-800 lg:rounded-bl-4xl" />
 						<div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-bl-[calc(2rem+1px)]">
 							<div className="px-8 pt-8 sm:px-10 sm:pt-10">
 								<p className="text-lg font-medium tracking-tight text-white">
-									Registrations
+									Tracks
 								</p>
 								<p className="mt-2 text-4xl font-semibold text-[#ffffbe]">
-									2000+
+									Agentic AI, Open Innovation, Web3
 								</p>
-								<p className="mt-2 max-w-sm text-sm/6 text-gray-400">
-									Participants already signed up and growing.
-								</p>
+
+								{/* Network Image - Responsive */}
+								<div className="mt-4 flex justify-center lg:justify-start">
+									<div className="relative w-full max-w-[200px] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[280px] xl:max-w-[320px]">
+										<Image
+											src="/dark-bento-01-network.png"
+											alt="Network visualization showing global participant connections"
+											width={320}
+											height={280}
+											className="w-full h-auto object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
+											priority={false}
+										/>
+									</div>
+								</div>
 							</div>
 							<div className="flex flex-1 items-end px-8 pb-6">
 								<div className="h-2 w-full overflow-hidden rounded-full bg-gray-700">
@@ -303,46 +315,69 @@ export default function App() {
 						</div>
 					</div>
 
-					{/* Program Momentum (row 2 col 2) */}
-					<div className="relative">
-						<div className="absolute inset-px rounded-lg bg-gray-800" />
-						<div className="relative flex h-full flex-col justify-between overflow-hidden rounded-[calc(var(--radius-lg)+1px)] p-6">
-							<div>
-								<p className="text-sm font-medium tracking-tight text-white">
-									Program Momentum
-								</p>
-								<p className="mt-1 text-[11px]/5 text-gray-400">
-									High engagement & rapid mentor onboarding.
-								</p>
+					{/* Middle Column - Two boxes stacked vertically */}
+					<div className="relative lg:col-span-2 grid grid-rows-2 gap-4">
+						{/* Top box */}
+						<div className="relative">
+							<div className="absolute inset-px rounded-lg bg-gray-800" />
+							<div className="relative flex h-full flex-col justify-between overflow-hidden rounded-[calc(var(--radius-lg)+1px)] ">
+								<div className="px-8 pt-8 sm:px-10 sm:pt-10">
+									<p className="text-md font-medium tracking-tight text-white">
+										Registrations
+									</p>
+									<p className="mt-2 text-2xl font-semibold text-[#ffffbe]">
+										2000+
+									</p>
+									<p className="mt-2 max-w-sm text-sm text-gray-400">
+										Participants already signed up and growing.
+									</p>
+
+									{/* Network Image - Responsive */}
+									<div className="mt-4 flex justify-center lg:justify-start">
+										<div className="relative w-full h-full max-w-[320px] sm:max-w-[250px] md:max-w-[300px] lg:max-w-[280px] xl:max-w-[320px]">
+											<Image
+												src="/dark-bento-01-network.png"
+												alt="Network visualization showing global participant connections"
+												width={420}
+												height={380}
+												className="w-full h-auto object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
+												priority={false}
+											/>
+										</div>
+									</div>
+								</div>
 							</div>
-							<div className="grid grid-cols-3 gap-3 pt-2">
-								<div className="text-center">
-									<p className="text-sm font-semibold text-[#ffffbe]">2K+</p>
-									<p className="mt-0.5 text-[10px] uppercase tracking-wide text-gray-400">
-										Regs
+						</div>
+
+						{/* Bottom box */}
+						<div className="relative">
+							<div className="absolute inset-px rounded-lg bg-gray-800" />
+							<div className="relative flex h-full flex-col justify-between overflow-hidden rounded-[calc(var(--radius-lg)+1px)] p-4">
+								<div>
+									<p className="text-sm font-medium tracking-tight text-white">
+										Response Time
+									</p>
+									<p className="mt-1 text-[10px]/4 text-gray-400">
+										Quick mentor & support response.
 									</p>
 								</div>
-								<div className="text-center">
-									<p className="text-sm font-semibold text-[#ffffbe]">40+</p>
-									<p className="mt-0.5 text-[10px] uppercase tracking-wide text-gray-400">
-										Mentors
-									</p>
+								<div className="grid grid-cols-1 gap-2 pt-1">
+									<div className="text-center">
+										<p className="text-sm font-semibold text-[#ffffbe]">24h</p>
+										<p className="mt-0.5 text-[8px] uppercase tracking-wide text-gray-400">
+											Avg Response
+										</p>
+									</div>
 								</div>
-								<div className="text-center">
-									<p className="text-sm font-semibold text-[#ffffbe]">24h</p>
-									<p className="mt-0.5 text-[10px] uppercase tracking-wide text-gray-400">
-										Response
-									</p>
+								<div className="mt-2 h-1 w-full overflow-hidden rounded-full bg-gray-700">
+									<div className="h-full w-[85%] rounded-full bg-gradient-to-r from-indigo-400 via-fuchsia-400 to-amber-300" />
 								</div>
-							</div>
-							<div className="mt-3 h-1.5 w-full overflow-hidden rounded-full bg-gray-700">
-								<div className="h-full w-[78%] rounded-full bg-gradient-to-r from-indigo-400 via-fuchsia-400 to-amber-300" />
 							</div>
 						</div>
 					</div>
 
 					{/* Security (right column spanning rows 2-3) */}
-					<div className="relative lg:row-span-2">
+					<div className="relative lg:row-span-1 lg:col-span-2">
 						<div className="absolute inset-px rounded-lg bg-gray-800 lg:rounded-br-4xl" />
 						<div className="relative flex h-full flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] lg:rounded-br-[calc(2rem+1px)] p-8 sm:p-10">
 							<p className="text-lg font-medium tracking-tight text-white">
@@ -374,63 +409,7 @@ export default function App() {
 						</div>
 					</div>
 
-					{/* Last row: three compact cards (50% height vs earlier full) */}
-					<div className="relative lg:mt-2">
-						<div className="absolute inset-px rounded-lg bg-gray-800 lg:rounded-bl-4xl" />
-						<div className="relative flex min-h-[180px] flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] p-5 sm:p-6">
-							<p className="text-sm font-medium tracking-tight text-white">
-								24hr Hackathon
-							</p>
-							<p className="mt-1 text-[12px]/5 text-gray-400">
-								Rapid build marathon with mentor boosts.
-							</p>
-							<div className="mt-auto pt-3 flex gap-4 text-[10px] text-gray-300">
-								<span className="flex flex-col items-center">
-									<span className="text-xs font-semibold text-[#ffffbe]">
-										8
-									</span>
-									Tracks
-								</span>
-								<span className="flex flex-col items-center">
-									<span className="text-xs font-semibold text-[#ffffbe]">
-										3
-									</span>
-									Phases
-								</span>
-								<span className="flex flex-col items-center">
-									<span className="text-xs font-semibold text-[#ffffbe]">
-										∞
-									</span>
-									Ideas
-								</span>
-							</div>
-						</div>
-					</div>
-					<div className="relative lg:mt-2">
-						<div className="absolute inset-px rounded-lg bg-gray-800" />
-						<div className="relative flex min-h-[180px] flex-col overflow-hidden rounded-[calc(var(--radius-lg)+1px)] p-5 sm:p-6">
-							<p className="text-sm font-medium tracking-tight text-white">
-								Prizes
-							</p>
-							<p className="mt-1 text-[12px]/5 text-gray-400">
-								Cash, credits & incubation slots for winners.
-							</p>
-							<div className="mt-auto grid grid-cols-3 gap-3 text-center text-[10px] text-gray-300">
-								<div>
-									<p className="text-xs font-semibold text-[#ffffbe]">$10k</p>
-									<p className="mt-0.5">Pool</p>
-								</div>
-								<div>
-									<p className="text-xs font-semibold text-[#ffffbe]">5</p>
-									<p className="mt-0.5">Tracks</p>
-								</div>
-								<div>
-									<p className="text-xs font-semibold text-[#ffffbe]">Top 3</p>
-									<p className="mt-0.5">Teams</p>
-								</div>
-							</div>
-						</div>
-					</div>
+					{/* Last row: two smaller compact cards */}
 				</div>
 			</div>
 		</section>
