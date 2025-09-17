@@ -2,9 +2,9 @@ import React from "react";
 
 const CommunityPartnersection = () => {
 	const ecosystemLogos = [
-		{ src: "/images/ecosystems/logo_lightprotocol.png", alt: "Light Protocol" },
-		{ src: "/images/ecosystems/logo_zeta.png", alt: "Zeta" },
-		{ src: "/images/ecosystems/logo_ionet.png", alt: "IONet" },
+		{ src: "/ecosystems/logo_lightprotocol.png", alt: "Light Protocol" },
+		{ src: "/ecosystems/logo_zeta.png", alt: "Zeta" },
+		{ src: "/ecosystems/logo_ionet.png", alt: "IONet" },
 	];
 
 	return (

@@ -7,7 +7,7 @@ const StatsSection = () => {
 				<div className="relative">
 					<img
 						className="mx-auto pt-40 md:pt-0"
-						src="/images/illustrations/illustration-2.png"
+						src="/illustrations/illustration-2.png"
 						alt=""
 					/>
 					<div className="absolute left-1/2 top-1/2 w-full max-w-3xl -translate-x-1/2 -translate-y-1/2 md:top-[40%]">

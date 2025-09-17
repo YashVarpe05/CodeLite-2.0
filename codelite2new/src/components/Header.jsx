@@ -20,7 +20,7 @@ const Header = () => {
 							<a href="/" className="flex items-center">
 								<img
 									className="h-8 w-auto sm:h-10 md:h-12 transition-all duration-200 hover:scale-105"
-									src="/images/logos/logo.png"
+									src="/logos/logo.png"
 									alt="CodeLite 2.0 logo"
 								/>
 							</a>

@@ -18,7 +18,7 @@ const TestimonialsSection = () => {
 			id: 1,
 			name: "Yash_Varpe.exe",
 			title: "Lead Organiser",
-			image: "../../images/team/yash1.png",
+			image: "/team/yash1.png",
 			pitch:
 				"Passionate about building innovative solutions and leading development teams to create amazing products.",
 			icon: <FaCode />,
@@ -49,7 +49,7 @@ const TestimonialsSection = () => {
 			id: 2,
 			name: "Akash_Satao.exe",
 			title: "Lead Organiser",
-			image: "/images/team/akash.jpg",
+			image: "/team/akash.jpg",
 			pitch:
 				"Creating beautiful and intuitive user experiences that make technology accessible to everyone.",
 			icon: <FaHeart />,
@@ -80,7 +80,7 @@ const TestimonialsSection = () => {
 			id: 3,
 			name: "Abhishek_Kaware.exe",
 			title: "Co-Lead",
-			image: "/images/team/abhi.jpg",
+			image: "/team/abhi.jpg",
 			pitch:
 				"Building scalable and robust backend systems that power the next generation of applications.",
 			icon: <FaRocket />,
@@ -111,7 +111,7 @@ const TestimonialsSection = () => {
 			id: 4,
 			name: "Nikhil_Gawade.exe",
 			title: "Media Lead",
-			image: "/images/team/nikhil.jpeg",
+			image: "/team/nikhil.jpeg",
 			pitch:
 				"Bridging the gap between technology and user needs to deliver products that truly matter.",
 			icon: <FaBrain />,
@@ -142,7 +142,7 @@ const TestimonialsSection = () => {
 			id: 5,
 			name: "Swapnil_Khot.exe",
 			title: "Sponsorship Lead",
-			image: "/images/team/swapnil.jpeg",
+			image: "/team/swapnil.jpeg",
 			pitch:
 				"Ensuring smooth deployments and maintaining infrastructure that scales with our growing platform.",
 			icon: <FaRocket />,
@@ -173,7 +173,7 @@ const TestimonialsSection = () => {
 			id: 6,
 			name: "Tejas_Yewale.exe",
 			title: "Marketing Lead",
-			image: "/images/team/tejas.jpg",
+			image: "/team/tejas.jpg",
 			pitch:
 				"Crafting responsive and interactive user interfaces that bring designs to life.",
 			icon: <FaCode />,
@@ -204,7 +204,7 @@ const TestimonialsSection = () => {
 			id: 7,
 			name: "Kanika_Ganjoo.exe",
 			title: "Creativity Lead",
-			image: "/images/team/kanika.jpeg",
+			image: "/team/kanika.jpeg",
 			pitch:
 				"Turning data into insights and building intelligent systems that drive business decisions.",
 			icon: <FaBrain />,
@@ -235,7 +235,7 @@ const TestimonialsSection = () => {
 			id: 8,
 			name: "Mahesh_Nirgude.exe",
 			title: "Documentation Lead",
-			image: "/images/team/mahesh.jpg",
+			image: "/team/mahesh.jpg",
 			pitch:
 				"Building brand awareness and connecting with our community to grow our platform.",
 			icon: <FaHeart />,
@@ -266,7 +266,7 @@ const TestimonialsSection = () => {
 			id: 9,
 			name: "harshad_Kambale.exe",
 			title: "Design Lead",
-			image: "/images/team/harshad.jpeg",
+			image: "/team/harshad.jpeg",
 			pitch:
 				"Building and nurturing our developer community to create an inclusive and supportive environment.",
 			icon: <FaUsers />,
@@ -297,7 +297,7 @@ const TestimonialsSection = () => {
 		// 	id: 11,
 		// 	name: "Jay_Talole.exe",
 		// 	title: "Co-Lead Design",
-		// 	image: "/images/team/jay.jpeg",
+		// 	image: "/team/jay.jpeg",
 		// 	pitch:
 		// 		"Protecting our platform and users with cutting-edge security practices and technologies.",
 		// 	icon: <FaLock />,
@@ -328,7 +328,7 @@ const TestimonialsSection = () => {
 		// 	id: 10,
 		// 	name: "Amol_Arde.exe",
 		// 	title: "Co-Lead Marketing",
-		// 	image: "/images/team/amol.jpeg",
+		// 	image: "/team/amol.jpeg",
 		// 	pitch:
 		// 		"Building and nurturing our developer community to create an inclusive and supportive environment.",
 		// 	icon: <FaUsers />,
@@ -360,7 +360,7 @@ const TestimonialsSection = () => {
 			id: 12,
 			name: "Aryan_Jagzap.exe",
 			title: "Management Lead",
-			image: "/images/team/aryan.jpeg",
+			image: "/team/aryan.jpeg",
 			pitch:
 				"Building and nurturing our developer community to create an inclusive and supportive environment.",
 			icon: <FaUsers />,
@@ -395,7 +395,7 @@ const TestimonialsSection = () => {
 				<div className="flex items-start justify-between px-6 relative">
 					{/* Left Pillar */}
 					<div className="hidden md:block sticky top-20">
-						<img src="/images/illustrations/illustration-4.png" alt="" />
+						<img src="/illustrations/illustration-4.png" alt="" />
 					</div>
 
 					{/* Center Team Section */}
@@ -428,7 +428,7 @@ const TestimonialsSection = () => {
 
 					{/* Right Pillar */}
 					<div className="hidden md:block sticky top-20">
-						<img src="/images/illustrations/illustration-4.png" alt="" />
+						<img src="/illustrations/illustration-4.png" alt="" />
 					</div>
 				</div>
 			</div>

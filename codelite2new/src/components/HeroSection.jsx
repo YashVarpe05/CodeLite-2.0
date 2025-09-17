@@ -39,7 +39,7 @@ const HeroSection = () => {
 				<div className="mx-auto max-w-5xl md:-mt-10 lg:-mt-12 xl:max-w-6xl">
 					<img
 						className="pointer-events-none w-full translate-x-4 select-none md:translate-x-6 lg:translate-x-8"
-						src="/images/illustrations/illustration-1.png"
+						src="/illustrations/illustration-1.png"
 						alt=""
 					/>
 				</div>

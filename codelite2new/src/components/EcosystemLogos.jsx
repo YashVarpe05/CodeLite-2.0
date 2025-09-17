@@ -2,16 +2,16 @@ import React from "react";
 
 const EcosystemLogos = () => {
 	const ecosystemLogos = [
-		{ src: "/images/ecosystems/devfolio.png", alt: "Stepn" },
-		{ src: "/images/ecosystems/ethindia.png", alt: "Tensor" },
-		{ src: "/images/ecosystems/beeceptor.png", alt: "Dialect" },
-		{ src: "/images/ecosystems/class.jpeg", alt: "Genopets" },
-		{ src: "/images/ecosystems/aptos.png", alt: "Jito Labs" },
-		{ src: "/images/ecosystems/give-certificate.png", alt: "Marinade" },
-		{ src: "/images/ecosystems/polygon.png", alt: "TipLink" },
-		{ src: "/images/ecosystems/scroll-connect.png", alt: "Drift" },
-		{ src: "/images/ecosystems/logo_zeta.png", alt: "Zeta" },
-		{ src: "/images/ecosystems/logo_ionet.png", alt: "IONet" },
+		{ src: "/ecosystems/devfolio.png", alt: "Stepn" },
+		{ src: "/ecosystems/ethindia.png", alt: "Tensor" },
+		{ src: "/ecosystems/beeceptor.png", alt: "Dialect" },
+		{ src: "/ecosystems/class.jpeg", alt: "Genopets" },
+		{ src: "/ecosystems/aptos.png", alt: "Jito Labs" },
+		{ src: "/ecosystems/give-certificate.png", alt: "Marinade" },
+		{ src: "/ecosystems/polygon.png", alt: "TipLink" },
+		{ src: "/ecosystems/scroll-connect.png", alt: "Drift" },
+		{ src: "/ecosystems/logo_zeta.png", alt: "Zeta" },
+		{ src: "/ecosystems/logo_ionet.png", alt: "IONet" },
 	];
 
 	return (

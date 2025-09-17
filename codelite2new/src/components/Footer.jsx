@@ -7,7 +7,7 @@ const Footer = () => {
 						<a href="/">
 							<img
 								className="mb-3 h-233 w-auto sm:h-10 md:h-12 lg:max-w-[10.5rem] transition-all duration-200 hover:scale-105"
-								src="/images/logos/logo.png"
+								src="/logos/logo.png"
 								alt="CodeLite 2.0 logo"
 							/>
 						</a>

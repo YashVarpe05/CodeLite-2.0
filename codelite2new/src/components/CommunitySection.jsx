@@ -79,7 +79,7 @@ const CommunitySection = () => {
 				<div className="hidden md:block">
 					<img
 						className="mx-auto"
-						src="/images/illustrations/illustration-3.png"
+						src="/illustrations/illustration-3.png"
 						alt="Innovation Tracks Illustration"
 					/>
 				</div>
