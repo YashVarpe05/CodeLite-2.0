@@ -18,6 +18,7 @@ After verification, immediately:
 ## 🚨 STEP 3: CHECK CURRENT INDEXING STATUS
 
 Run these searches to see if you're already indexed:
+
 - `site:codelite2o.tech`
 - `"CodeLite 2.0"`
 - `"CodeLite hackathon"`
@@ -25,6 +26,7 @@ Run these searches to see if you're already indexed:
 ## 🚨 STEP 4: CREATE IMMEDIATE BACKLINKS
 
 Share your website EVERYWHERE:
+
 - Post on your Instagram: @codelitehacks
 - Tweet from @codelitehacks
 - Share in Discord communities
@@ -34,7 +36,7 @@ Share your website EVERYWHERE:
 ## ⚡ EMERGENCY INDEXING METHODS
 
 1. **Google My Business:** Create a business listing
-2. **Submit to Directories:** 
+2. **Submit to Directories:**
    - AllTheWeb.com
    - DuckDuckGo Submit
    - Bing Webmaster Tools
@@ -50,6 +52,7 @@ Share your website EVERYWHERE:
 ## 🔍 TROUBLESHOOTING
 
 If still not appearing after 7 days:
+
 1. Check Google Search Console for crawl errors
 2. Verify all meta tags are correct
 3. Ensure website loads fast (under 3 seconds)
