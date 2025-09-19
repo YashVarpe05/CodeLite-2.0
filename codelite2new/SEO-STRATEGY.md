@@ -1,6 +1,7 @@
 # CodeLite 2.0 - Social Media & SEO Strategy
 
 ## 🔗 OFFICIAL SOCIAL MEDIA LINKS
+
 - **Instagram:** [@codelitehacks](https://www.instagram.com/codelitehacks/)
 - **X (Twitter):** [@codelitehacks](https://x.com/codelitehacks)
 - **Discord:** [Join Here](https://discord.gg/pqENhTcc)
@@ -8,6 +9,7 @@
 ## 📱 SOCIAL MEDIA OPTIMIZATION IMPLEMENTED
 
 ### Meta Tags Updated:
+
 - ✅ Twitter handle: @codelitehacks
 - ✅ Social media links in structured data
 - ✅ Organization schema with social profiles
@@ -15,13 +17,16 @@
 ### Social Media Strategy:
 
 #### DAILY POSTING SCHEDULE:
+
 1. **Instagram:**
+
    - Tech tips and coding challenges
    - Behind-the-scenes content
    - Participant spotlights
    - Countdown posts
 
 2. **Twitter/X:**
+
    - Quick tech updates
    - Thread about AI/Web3 trends
    - Engage with developer community
@@ -34,6 +39,7 @@
    - Community building
 
 #### HASHTAG STRATEGY:
+
 ```
 Primary: #CodeLite2o #CodeLite #HackathonIndia
 Secondary: #AgenticAI #Web3 #OpenInnovation #TechIndia
@@ -45,6 +51,7 @@ Trending: #Hackathon2025 #CodingCompetition #DevCommunity
 To maximize your SEO performance, please provide:
 
 ### 1. EVENT DETAILS:
+
 - **Event dates:** When is CodeLite 2.0 happening?
 - **Registration deadline:** When does registration close?
 - **Duration:** How many days is the hackathon?
@@ -52,23 +59,27 @@ To maximize your SEO performance, please provide:
 - **Location:** If offline, which city/venue?
 
 ### 2. PRIZES & INCENTIVES:
+
 - **Total prize pool:** Amount in INR?
 - **Category prizes:** Individual track prizes?
 - **Sponsors:** Major sponsors/partners?
 - **Perks:** Internships, job opportunities, certificates?
 
 ### 3. TEAM INFORMATION:
+
 - **Organizers:** Names of key team members?
 - **Institution:** Is it college-organized or independent?
 - **Previous events:** CodeLite 1.0 details/success stories?
 
 ### 4. TECHNICAL DETAILS:
+
 - **Programming languages:** Preferred/allowed languages?
 - **Tools/Platforms:** Required development tools?
 - **Judging criteria:** How are projects evaluated?
 - **Submission format:** GitHub repos, presentations, demos?
 
 ### 5. TARGET AUDIENCE:
+
 - **Age group:** Students only or professionals too?
 - **Skill level:** Beginner-friendly or advanced?
 - **Team size:** Individual or team participation?
@@ -79,6 +90,7 @@ To maximize your SEO performance, please provide:
 Based on the information you provide, I can create:
 
 1. **Landing page sections:**
+
    - About CodeLite 2.0
    - Tracks detailed descriptions
    - Timeline and schedule
@@ -86,6 +98,7 @@ Based on the information you provide, I can create:
    - Past winners showcase
 
 2. **Blog posts for SEO:**
+
    - "Complete Guide to CodeLite 2.0 Registration"
    - "Agentic AI: The Future of Autonomous Systems"
    - "Web3 Development Trends in 2025"
@@ -107,6 +120,7 @@ Based on the information you provide, I can create:
 5. **Share registration link** on all platforms
 
 Once you provide the additional details, I can:
+
 - Create detailed landing page content
 - Add specific event schema markup
 - Write SEO-optimized blog posts
