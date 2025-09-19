@@ -1,0 +1,41 @@
+{
+  "name": "CodeLite 2.0 - Premier Hackathon",
+  "short_name": "CodeLite 2.0",
+  "description": "India's biggest hackathon featuring Agentic AI, Web3, and Open Innovation tracks",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/logos/logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logos/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "developer", "technology"],
+  "lang": "en-US",
+  "scope": "/",
+  "shortcuts": [
+    {
+      "name": "Register Now",
+      "short_name": "Register",
+      "description": "Register for CodeLite 2.0",
+      "url": "/#register",
+      "icons": [
+        {
+          "src": "/logos/logo.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}

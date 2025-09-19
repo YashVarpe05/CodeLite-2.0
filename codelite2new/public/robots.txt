@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.codelite2o.tech/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
